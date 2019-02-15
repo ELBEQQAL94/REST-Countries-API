@@ -1,0 +1,46 @@
+h1 {
+    margin-top: 5px;
+    background-color: gray;
+    border: 1px solid;
+    padding: 10px;
+}
+
+img {
+    height: 200px;
+    margin: 5px 0;
+    width: 700px;
+}
+
+footer {
+    margin: 0;
+    padding: 20px;
+}
+
+footer p .my-name {
+    color: #be1837;
+    font-weight: bold;
+}
+
+footer .icon {
+    font-size:2em;
+    margin-left: 5px;
+    color: darkslategrey;
+    text-decoration: none;
+    transition: .5s all ease-in-out;
+}
+
+footer .icon:hover {
+    color: #EEE;
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.2em;
+    }
+    footer p {
+        font-size: 1em !important ;
+    }
+    .icon {
+        font-size: 1.3em !important;
+    }
+ }
